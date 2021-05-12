@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-gap: 0.5em;
+    background-color: darkgray;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+.grid-container button{
+    height: 10em;
+    width: 100%;
+}
+
+button{
+    cursor: pointer;
+}
